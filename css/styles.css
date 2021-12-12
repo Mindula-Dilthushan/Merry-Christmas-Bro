@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center
+}
+
+.img-wall {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    image-resolution: from-image;
+}
