@@ -9,17 +9,29 @@
 
     <!--Stylesheet ------------------------------------------------------------------------------------------------------>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
-<img src="./assets/wall.jpg" class="img-wall">
+<body class="overflow-hidden">
+<div class="container-fluid d-flex justify-content-center align-items-center p-0 m-0">
+    <img src="./assets/wall.jpg" class="img-wall">
+</div>
 
+<audio id="mySong">
+    <source src="audio/merry.mp3" type="audio/mp3">
+</audio>
+
+<script>
+    var mySong = document.getElementById("mySong");
+</script>
 <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
 <script>
     var sf = new Snowflakes({
         color: "#ffffff"
     });
+
 </script>
+
 
 </body>
 </html>
